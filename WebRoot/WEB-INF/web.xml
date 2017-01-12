@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.DepartInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeviceInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.DeviceInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GroupInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.GroupInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.LogInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrivilegeInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.PrivilegeInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.RecordInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RoleInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.RoleInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SiteInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.SiteInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PriRoleInfoServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.PriRoleInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PositionServlet</servlet-name>
+    <servlet-class>com.zrgk.bankpolling.servlet.PositionServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/user.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartInfoServlet</servlet-name>
+    <url-pattern>/depart.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeviceInfoServlet</servlet-name>
+    <url-pattern>/device.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GroupInfoServlet</servlet-name>
+    <url-pattern>/group.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogInfoServlet</servlet-name>
+    <url-pattern>/log.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrivilegeInfoServlet</servlet-name>
+    <url-pattern>/privilege.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordInfoServlet</servlet-name>
+    <url-pattern>/record.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RoleInfoServlet</servlet-name>
+    <url-pattern>/role.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SiteInfoServlet</servlet-name>
+    <url-pattern>/site.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PriRoleInfoServlet</servlet-name>
+    <url-pattern>/priRole.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PositionServlet</servlet-name>
+    <url-pattern>/position.do</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

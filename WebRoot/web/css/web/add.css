@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+ .font1 {
+	color: #F00;
+	font-weight: bold;
+}
+.table {
+	background-color: #FDFBF2;
+	margin-left: 250px;
+	width: 50%;
+	margin-top:30px
+}
+.giveroletable {
+	background-color: #FDFBF2;
+	margin-left: 90px;
+	width: 50%;
+	margin-top:80px
+}
+.text {
+	margin-left: 20px;
+	height: 25px;
+	width: 140px;
+}
+.text1 {
+	margin-left: 20px;
+	height: 25px;
+	width: 160px;
+}
+.selec {
+	height: 50px;
+	width: 120px;
+	margin-left: 20px;
+}
+.selec1 {
+	height: 50px;
+	width: 160px;
+	margin-left: 20px;
+}
+.selec2 {
+	height: 50px;
+	width: 150px;
+	margin-left: 20px;
+}
+.tarea {
+	margin-left: 20px;
+	width: 220px;
+	height: 50px;
+}
+.tarea1 {
+	margin-left: 20px;
+	width: 220px;
+	height: 80px;
+}
+.but {
+	width: 50px;
+	height: 30px;
+}
+  th {
+	background-color: #E1F3F4;
+}
+.tdcenter{
+	text-align : center;
+}
+#node{
+	width:220px;
+	height:200px;
+	position: absolute;
+	display:none;
+	background-color: #f0f0f0;
+	overflow: auto;
+	/* z-index: 1; */
+	border: 1px solid #acacac;
+	left:375px;
+	top:280px
+}
+#updRoleNode{
+	width:220px;
+	height:220px;
+	position: absolute;
+	display:none;
+	background-color: #f0f0f0;
+	overflow: auto;
+	/* z-index: 1; */
+	border: 1px solid #acacac;
+	left:375px;
+	top:300px
+}
